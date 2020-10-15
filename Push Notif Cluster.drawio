@@ -1,34 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-10-15T04:19:52.287Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="iw7ori0G7Z2zCbF2yfux" version="13.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-15T04:24:14.929Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="Agad-C6EUyGFDIZX4nrR" version="13.7.7" type="github">
   <diagram id="Guypbs_A428L5CG2xPTj" name="Page-1">
     <mxGraphModel dx="868" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1apNpiCx--wOQ27m54ww-5" value="" style="shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="1">
-          <mxGeometry x="804" y="179" width="200" height="646" as="geometry" />
-        </mxCell>
-        <mxCell id="1apNpiCx--wOQ27m54ww-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1apNpiCx--wOQ27m54ww-5">
-          <mxGeometry x="-560" y="33.41" width="760" height="556.59" as="geometry" />
-        </mxCell>
-        <mxCell id="1apNpiCx--wOQ27m54ww-6" value="&lt;font color=&quot;#000000&quot;&gt;Pintu Customer&lt;br&gt;Segment API&lt;/font&gt;&lt;br&gt;Compute Engine" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=compute_engine;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="1apNpiCx--wOQ27m54ww-5">
-          <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
-            <mxPoint x="5" y="-19.5" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1apNpiCx--wOQ27m54ww-12" value="401 Unauthorized error message" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1apNpiCx--wOQ27m54ww-5">
-          <mxGeometry x="-470" y="331" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1apNpiCx--wOQ27m54ww-25" value="Send message as response" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1apNpiCx--wOQ27m54ww-5">
-          <mxGeometry x="-470" y="471" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1apNpiCx--wOQ27m54ww-26" value="4. Construct message&lt;br&gt;as response" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1apNpiCx--wOQ27m54ww-5" source="1apNpiCx--wOQ27m54ww-12" target="1apNpiCx--wOQ27m54ww-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1apNpiCx--wOQ27m54ww-48" value="9. Construct message&lt;br&gt;as response" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1apNpiCx--wOQ27m54ww-5" source="1apNpiCx--wOQ27m54ww-42" target="1apNpiCx--wOQ27m54ww-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1apNpiCx--wOQ27m54ww-42" value="200 Content: Customer&lt;br&gt;Segment" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1apNpiCx--wOQ27m54ww-5">
-          <mxGeometry x="-150" y="467" width="120" height="60" as="geometry" />
+        <mxCell id="1apNpiCx--wOQ27m54ww-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="212.41" width="784" height="556.59" as="geometry" />
         </mxCell>
         <mxCell id="1apNpiCx--wOQ27m54ww-1" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="1">
           <mxGeometry x="344" y="45" width="100" height="60" as="geometry" />
@@ -131,6 +108,29 @@
         <mxCell id="1apNpiCx--wOQ27m54ww-47" value="9. Construct message&lt;br&gt;as response" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-45" target="1apNpiCx--wOQ27m54ww-25">
           <mxGeometry x="-0.2439" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-12" value="401 Unauthorized error message" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="334" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-25" value="Send message as response" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="334" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-26" value="4. Construct message&lt;br&gt;as response" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-12" target="1apNpiCx--wOQ27m54ww-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-48" value="9. Construct message&lt;br&gt;as response" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-42" target="1apNpiCx--wOQ27m54ww-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-42" value="200 Content: Customer&lt;br&gt;Segment" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="654" y="646" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-51" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="1">
+          <mxGeometry x="830" y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-52" value="&lt;font color=&quot;#000000&quot;&gt;Customer&lt;br&gt;Segment API&lt;/font&gt;&lt;br&gt;Compute Engine" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=compute_engine;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="1apNpiCx--wOQ27m54ww-51">
+          <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
+            <mxPoint x="5" y="-19.5" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
