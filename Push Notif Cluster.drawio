@@ -1,19 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2020-10-15T03:56:38.784Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="2DbobPtPzd2cnMfyC-kx" version="13.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-15T04:11:16.349Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="zMIknYWw_r3IH-xke5qE" version="13.7.7" type="github">
   <diagram id="Guypbs_A428L5CG2xPTj" name="Page-1">
     <mxGraphModel dx="868" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1apNpiCx--wOQ27m54ww-5" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="1">
-          <mxGeometry x="800" y="214" width="200" height="580" as="geometry" />
+        <mxCell id="1apNpiCx--wOQ27m54ww-5" value="" style="shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="1">
+          <mxGeometry x="800" y="214" width="200" height="646" as="geometry" />
         </mxCell>
-        <mxCell id="1apNpiCx--wOQ27m54ww-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1apNpiCx--wOQ27m54ww-5">
-          <mxGeometry x="-560" y="30" width="760" height="550" as="geometry" />
+        <mxCell id="1apNpiCx--wOQ27m54ww-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1apNpiCx--wOQ27m54ww-5">
+          <mxGeometry x="-560" y="33.41379310344827" width="760" height="612.5862068965517" as="geometry" />
         </mxCell>
         <mxCell id="1apNpiCx--wOQ27m54ww-6" value="&lt;font color=&quot;#000000&quot;&gt;Pintu Customer&lt;br&gt;Segment API&lt;/font&gt;&lt;br&gt;Compute Engine" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=compute_engine;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="1apNpiCx--wOQ27m54ww-5">
           <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
             <mxPoint x="5" y="-19.5" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-45" value="404 Not found&lt;br&gt;error message" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1apNpiCx--wOQ27m54ww-5">
+          <mxGeometry x="-310" y="396.5103448275862" width="120" height="66.82758620689654" as="geometry" />
         </mxCell>
         <mxCell id="1apNpiCx--wOQ27m54ww-1" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="1">
           <mxGeometry x="340" y="80" width="100" height="60" as="geometry" />
@@ -26,7 +29,7 @@
         <mxCell id="1apNpiCx--wOQ27m54ww-8" value="1. GET request&lt;br&gt;with Auth" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-4" target="1apNpiCx--wOQ27m54ww-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1apNpiCx--wOQ27m54ww-34" value="6/9. Check response" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-4" target="1apNpiCx--wOQ27m54ww-35">
+        <mxCell id="1apNpiCx--wOQ27m54ww-34" value="6/11. Check response" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-4" target="1apNpiCx--wOQ27m54ww-35">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="140" y="136" as="targetPoint" />
           </mxGeometry>
@@ -49,7 +52,7 @@
         <mxCell id="1apNpiCx--wOQ27m54ww-9" value="authorized?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
           <mxGeometry x="350" y="404" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="1apNpiCx--wOQ27m54ww-14" value="5/8. Send Reponse" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-25" target="1apNpiCx--wOQ27m54ww-4">
+        <mxCell id="1apNpiCx--wOQ27m54ww-14" value="5/10. Send Response" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-25" target="1apNpiCx--wOQ27m54ww-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1apNpiCx--wOQ27m54ww-26" value="4. Construct message&lt;br&gt;as response" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-12" target="1apNpiCx--wOQ27m54ww-25">
@@ -64,7 +67,7 @@
         <mxCell id="1apNpiCx--wOQ27m54ww-15" value="Payload: email" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
           <mxGeometry x="490" y="414" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1apNpiCx--wOQ27m54ww-30" value="6. Query Result" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-17" target="1apNpiCx--wOQ27m54ww-29">
+        <mxCell id="1apNpiCx--wOQ27m54ww-30" value="6. Send Query&lt;br&gt;Result" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-17" target="1apNpiCx--wOQ27m54ww-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1apNpiCx--wOQ27m54ww-17" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="1">
@@ -84,22 +87,49 @@
         <mxCell id="1apNpiCx--wOQ27m54ww-21" value="Construct query to get customer segment" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
           <mxGeometry x="490" y="274" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1apNpiCx--wOQ27m54ww-25" value="Send as response" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+        <mxCell id="1apNpiCx--wOQ27m54ww-25" value="Send message as response" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
           <mxGeometry x="330" y="714" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1apNpiCx--wOQ27m54ww-31" value="7. Construct message&lt;br&gt;as response" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-29" target="1apNpiCx--wOQ27m54ww-25">
+        <mxCell id="1apNpiCx--wOQ27m54ww-41" value="7. Check result" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-29" target="1apNpiCx--wOQ27m54ww-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1apNpiCx--wOQ27m54ww-29" value="Customer&lt;br&gt;Segment" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+        <mxCell id="1apNpiCx--wOQ27m54ww-29" value="Query Result" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
           <mxGeometry x="650" y="274" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1apNpiCx--wOQ27m54ww-37" value="10.Yes. Send&lt;br&gt;Push Notif" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-35" target="1apNpiCx--wOQ27m54ww-1">
+        <mxCell id="1apNpiCx--wOQ27m54ww-37" value="12.Yes. Send&lt;br&gt;Push Notif" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-35" target="1apNpiCx--wOQ27m54ww-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1apNpiCx--wOQ27m54ww-35" value="is response&lt;br&gt;customer segment?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
           <mxGeometry x="90" y="60" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-44" value="8. Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-40" target="1apNpiCx--wOQ27m54ww-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="444" />
+              <mxPoint x="790" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-46" value="8. No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-40" target="1apNpiCx--wOQ27m54ww-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="644" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-40" value="is exist?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="670" y="404" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-48" value="9. Construct message&lt;br&gt;as response" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-42" target="1apNpiCx--wOQ27m54ww-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-42" value="Customer&lt;br&gt;Segment" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-47" value="9. Construct message&lt;br&gt;as response" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-45" target="1apNpiCx--wOQ27m54ww-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
