@@ -1,1 +1,107 @@
-<mxfile host="app.diagrams.net" modified="2020-10-15T02:59:42.560Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" version="13.7.7" etag="Hrou1BiAWm38oaZTCbly" type="github"><diagram id="Guypbs_A428L5CG2xPTj">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-15T03:56:38.784Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="2DbobPtPzd2cnMfyC-kx" version="13.7.7" type="github">
+  <diagram id="Guypbs_A428L5CG2xPTj" name="Page-1">
+    <mxGraphModel dx="868" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1apNpiCx--wOQ27m54ww-5" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="1">
+          <mxGeometry x="800" y="214" width="200" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1apNpiCx--wOQ27m54ww-5">
+          <mxGeometry x="-560" y="30" width="760" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-6" value="&lt;font color=&quot;#000000&quot;&gt;Pintu Customer&lt;br&gt;Segment API&lt;/font&gt;&lt;br&gt;Compute Engine" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=compute_engine;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="1apNpiCx--wOQ27m54ww-5">
+          <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
+            <mxPoint x="5" y="-19.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-1" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-2" value="&lt;font color=&quot;#000000&quot;&gt;Push&lt;br&gt;Notif&lt;/font&gt;&lt;br&gt;Firebase" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.firebase;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="1apNpiCx--wOQ27m54ww-1">
+          <mxGeometry width="32.4" height="45" relative="1" as="geometry">
+            <mxPoint x="5" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-8" value="1. GET request&lt;br&gt;with Auth" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-4" target="1apNpiCx--wOQ27m54ww-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-34" value="6/9. Check response" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-4" target="1apNpiCx--wOQ27m54ww-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="136" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-4" value="Pintu App Frontend" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-128.png" vertex="1" parent="1">
+          <mxGeometry x="76" y="240" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-10" value="2. check auth" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-7" target="1apNpiCx--wOQ27m54ww-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-7" value="Payload:&lt;br&gt;email and&lt;br&gt;auth" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="330" y="274" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-13" value="3. No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-9" target="1apNpiCx--wOQ27m54ww-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-16" value="3. Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-9" target="1apNpiCx--wOQ27m54ww-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-9" value="authorized?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="350" y="404" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-14" value="5/8. Send Reponse" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-25" target="1apNpiCx--wOQ27m54ww-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-26" value="4. Construct message&lt;br&gt;as response" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-12" target="1apNpiCx--wOQ27m54ww-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-12" value="401 Unauthorized error message" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="330" y="574" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-22" value="4. Pass email payload&lt;br&gt;as a parameter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-15" target="1apNpiCx--wOQ27m54ww-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-15" value="Payload: email" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="490" y="414" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-30" value="6. Query Result" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-17" target="1apNpiCx--wOQ27m54ww-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-17" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-18" value="&lt;font color=&quot;#000000&quot;&gt;Customer&lt;br&gt;Segments&lt;/font&gt;&lt;br&gt;BigQuery" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=bigquery;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="1apNpiCx--wOQ27m54ww-17">
+          <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
+            <mxPoint x="5" y="-19.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-24" value="5. Query to Data&lt;br&gt;Warehouse" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-21" target="1apNpiCx--wOQ27m54ww-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="420" as="sourcePoint" />
+            <mxPoint x="650" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-21" value="Construct query to get customer segment" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="490" y="274" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-25" value="Send as response" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="330" y="714" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-31" value="7. Construct message&lt;br&gt;as response" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-29" target="1apNpiCx--wOQ27m54ww-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-29" value="Customer&lt;br&gt;Segment" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="274" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-37" value="10.Yes. Send&lt;br&gt;Push Notif" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1apNpiCx--wOQ27m54ww-35" target="1apNpiCx--wOQ27m54ww-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1apNpiCx--wOQ27m54ww-35" value="is response&lt;br&gt;customer segment?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="90" y="60" width="100" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
